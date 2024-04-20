@@ -1,0 +1,263 @@
+@media (max-width: 992px) {
+  .header {
+    display: none;
+  }
+
+  .header.tabl {
+    display: flex;
+  }
+
+
+  .img-bottom {
+    display: none
+  }
+
+  .img-bottom-tabl {
+    display: flex;
+  }
+
+  .features-container {
+    display: block;
+  }
+
+
+  .features-content {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+
+  .features-content-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 47px;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.cards {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img-left{
+  padding-bottom: 10px;
+}
+
+.circle-img {
+  display: none;
+}
+
+.second-img {
+  display: none;
+}
+
+
+.testi-cards {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  column-gap: 23px;
+  row-gap: 20px;
+  justify-content: center;
+  padding-bottom: 150px;
+}
+
+.photos {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+
+.brands-tabl{
+  display: flex;
+}
+
+
+.brands{
+  display: none;
+}
+
+.testi-card-info {
+  max-width: 300px;
+}
+
+.card-opentype {
+  background-image: none;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-left: 25px;
+}
+
+
+}
+
+
+@media (max-width: 620px) {
+
+  .card{
+    width: 330px;
+  }
+
+  .features-content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 47px;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+  .one {
+    background-image: url(gall/1.png);
+    background-position: center;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.photos-right {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  width: 400px;
+  align-items: center;
+}
+
+.two {
+  background-image: url(gall/2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+
+  border-radius: 12px;
+  width: 350px;
+  height: 176px;
+}
+
+.three {
+  background-image: url(gall/3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  width: 350px;
+  height: 176px;
+}
+
+.four {
+  background-image: url(gall/4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  width: 350px;
+  height: 176px;
+}
+
+.five {
+  background-image: url(gall/5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+
+  border-radius: 12px;
+  width: 350px;
+  height: 176px;
+}
+
+.six {
+  background-image: url(gall/6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+
+  border-radius: 12px;
+  width: 350px;
+  height: 176px;
+}
+
+.seven {
+  background-image: url(gall/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+
+  border-radius: 12px;
+  width: 350px;
+  height: 176px;
+}
+
+.second-row {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+.third-row {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+.inner-opentype {
+  padding-top: 28px;
+  padding-left: 24px;
+}
+
+.card-opentype {
+  background-image: none;
+}
+
+}
+
+
+@media (max-width: 460px) {
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+}
+
+@media (max-width: 440px) {
+  .buttons{
+    flex-direction: column;
+  }
+
+  .testi-card {
+    max-width: 330px;}
+    
+}
+
+
+@media (max-width: 800px) {
+  .card-opentype {
+    background-image: none;
+  }
+
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+}
